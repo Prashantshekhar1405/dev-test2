@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 body {
     background-image: linear-gradient(to right, rgb(103, 103, 252), rgb(193, 190, 249));
 }
@@ -20,6 +23,7 @@ body {
     justify-content: center;
     align-items:center;
     font-weight: bold;
+    margin-left: 25px;
 }
 .left-nav .nav-mid {
     display: flex;
@@ -36,6 +40,7 @@ body {
     /* justify-content: space-between; */
     color: rgb(128, 128, 128);
     align-items: center;
+    margin-right: 10px;
 }
 .left-first-content {
     /* border: 1px solid; */
@@ -66,27 +71,91 @@ body {
     width: 65%;
     height: 100%;
     align-items:center ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 .left-first-content .right-stats .right-sub-stats{
-    width: 40%;
+    width: 47%;
     height: 45%;
     /* border: 1px solid; */
     background-color: white;
     border-radius:7px ;
 }
+.left-second-part {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
 .left-second-content {
     border:1px solid;
-    width: 100%;
+    width: 98%;
     height: 100px;
     background-color: white;
-    border-radius:7px ;
+    border-radius:7px;
 }
 .left-third-content {
     border: 1px solid;
     height: 280px;
     background-color: white;
     border-radius:7px ;
+}
+.right-part {
+    /* border: 1px solid; */
+    width: 30vw;
+}
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+    align-items: center;
+}
+.right-nav-left {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.right-nav-right {
+    font-weight: 500;
+    color: rgb(91, 91, 92);
+    margin-right: 10px;
+}
+.right-first-part {
+    /* border: 1px solid; */
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-first-content {
+    /* border: 1px solid; */
+    height: 94%;
+    width: 95%;
+    border-radius: 7px;
+    background-color:rgb(59, 59, 254);
+    display: flex;
+    flex-direction: column;
+}
+.balance {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    /* border: 1px solid; */
+}
+.balance .detail {
+    width: 70%;
+    /* border: 1px solid; */
+}
+.balance .picture {
+    /* border: 1px solid; */
+    width: 30%;
+}
+.balance-history {
+    border: 1px solid;
+    height: 30%;
+}
+.balance-buttons {
+    border: 1px solid;
+    height: 30%;
 }
